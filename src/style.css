@@ -10,69 +10,6 @@ body {
   height: 100vh;
 }
 
-.head {
-  display: flex;
-  flex-direction: column;
-  background-color: #a09d9d;
-  padding: 0.5rem 0.4rem;
-  gap: 0.4rem;
-}
-
-.head-title {
-  align-self: center;
-  font-size: 1rem;
-}
-
-i {
-  padding: 0.3rem;
-  font-size: 1.2rem;
-  color: black;
-}
-
-.nav-bar {
-  width: 100%;
-  display: flex;
-  gap: 0.3rem;
-}
-
-.head-para {
-  display: flex;
-  align-items: center;
-  width: 70%;
-  height: 30px;
-  font-size: 1.2rem;
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 0.2rem;
-  border: none;
-  outline: none;
-}
-
-.search-bar {
-  width: 20%;
-  padding: 0.1rem;
-  align-self: flex-end;
-  height: 30px;
-  display: flex;
-  background-color: #fff;
-  border-radius: 15px;
-  align-items: center;
-}
-
-.search-bar i {
-  padding: 0.3rem;
-  font-size: 1rem;
-  color: black;
-}
-
-.search {
-  border: none;
-  outline: none;
-  width: 100%;
-  border-radius: 15px;
-  height: inherit;
-}
-
 .body-cont {
   display: flex;
   flex-direction: column;
@@ -109,16 +46,22 @@ h3 {
   align-items: center;
 }
 
-.sec1-title button {
+.ref-btn {
   width: fit-content;
   height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.1rem;
+  padding: 0.2rem;
+  background-color: #94d399;
 }
 
-ul {
+.ref-btn:focus {
+  background-color: #0f4413;
+  color: #fff;
+}
+
+.conta {
   display: flex;
   flex-direction: column;
   border: 3px solid #a09d9d;
@@ -132,6 +75,10 @@ li {
 
 .colored {
   background-color: #bebbbb;
+}
+
+.not-colored {
+  background-color: #fff;
 }
 
 .sec2 {
@@ -161,6 +108,12 @@ form input {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #94d399;
+}
+
+.onfocuss:focus {
+  background-color: #0f4413;
+  color: #fff;
 }
 
 footer {
