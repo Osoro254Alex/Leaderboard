@@ -8,7 +8,7 @@ const renderContainer = async (gameLInk) => {
       resData.result.forEach((scores, index) => {
         container.innerHTML += `
         <li>
-          <p>${scores.user}:</p>
+          <p><b>${scores.user}:</b></p>
           <p>${scores.score}</p>
         </li> `;
         container.classList.add('conta');
