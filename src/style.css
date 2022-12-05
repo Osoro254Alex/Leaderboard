@@ -99,6 +99,7 @@ form {
 form input {
   height: 1.9rem;
   outline: none;
+  padding: 0 0.5rem;
 }
 
 .btn-last {
@@ -124,4 +125,155 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .body-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    align-self: center;
+  }
+
+  .sec-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .sec1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .sec1-title {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .ref-btn {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    background-color: #94d399;
+  }
+
+  .ref-btn:focus {
+    background-color: #0f4413;
+    color: #fff;
+  }
+
+  .conta {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #a09d9d;
+    width: 80%;
+  }
+
+  li {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.2rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  li p {
+    text-align: start;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .colored {
+    background-color: #bebbbb;
+  }
+
+  .not-colored {
+    background-color: #fff;
+  }
+
+  .sec2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    gap: 1rem;
+  }
+
+  form input {
+    height: 1.9rem;
+    outline: none;
+    border: 2px solid #94d399;
+    width: 100%;
+    align-self: center;
+  }
+
+  .btn-last {
+    width: 60%;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #94d399;
+  }
+
+  .onfocuss:focus {
+    background-color: #0f4413;
+    color: #fff;
+  }
+
+  footer {
+    height: 2rem;
+    width: 100%;
+    background-color: #a09d9d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
