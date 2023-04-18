@@ -15,7 +15,7 @@
 
 ## Link to the live page
 
-> Feel free to check the [Leaderboard-link](https://osoro254alex.github.io/).
+> Feel free to check the [Leaderboard-link](https://leaderboard-web-app.netlify.app/).
 
 ## Prerequisites
 - A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
